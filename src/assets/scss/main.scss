@@ -1,0 +1,50 @@
+@import 'grid/flexboxgrid';
+@import 'variables';
+@import 'text';
+@import 'utilities';
+@import 'data-grid/data-grid';
+@import 'data-grid/pagination';
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Roboto", "Trebuchet MS", Arial, Helvetica, sans-serif !important;
+  height: 100%;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.row-centered {
+  text-align: center;
+}
+
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  text-align: left;
+  /* inline-block space fix */
+  margin-right: -4px;
+}
+
+.text-danger {
+  color: red;
+}
+
+.app-main-content {
+  padding: .5rem;
+}
+
+.inline-icon {
+  font-size: 100%;
+  height: inherit;
+  vertical-align: top;
+  width: inherit;
+}
